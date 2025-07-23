@@ -64,7 +64,7 @@ extends:
           displayName: Package Extension
 
         # Generate SBOM
-        - template: eng\generate-sbom.yml
+        - template: eng/generate-sbom.yml@self
 
     - stage: CodeSigning
       displayName: Code Signing
